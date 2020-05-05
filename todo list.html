@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="todo list.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h1>Todo list</h1>
+          <input type="text" id="yourInput" placeholder="Write your task" />
+          <button type="button" id="bbtn" class="btn">Add</button>
+          <input
+            type="button"
+            class="btn"
+            value="Reload page"
+            onclick="reloadPage()"
+          />
+          <ul id="listElement"></ul>
+        </div>
+      </div>
+    </div>
+    <script src="todo list.js"></script>
+  </body>
+</html>

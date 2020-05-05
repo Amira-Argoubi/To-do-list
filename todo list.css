@@ -1,0 +1,16 @@
+body {
+  background-image: url("p1.jpg");
+}
+.container {
+  background-color: rgba(20, 15, 15, 0.3);
+  width: 500px;
+  display: flex;
+  justify-content: center;
+  border-radius: 5px;
+  box-shadow: 0px 10px 10px 8px rgb(12, 12, 12);
+  margin: auto;
+  margin-top: 100px;
+}
+.btn {
+  box-shadow: 0px 10px 10px 8px #888888;
+}
